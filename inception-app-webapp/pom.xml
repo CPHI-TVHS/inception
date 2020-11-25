@@ -32,6 +32,10 @@
   <dependencies>
     <!-- INCEPTION - CORE DEPENDENCIES -->
     <dependency>
+        <groupId>gov.med.va.vha09.nlp</groupId>
+        <artifactId>SILK_CA</artifactId>
+    </dependency>
+    <dependency>
       <groupId>de.tudarmstadt.ukp.inception.app</groupId>
       <artifactId>inception-ui-core</artifactId>
     </dependency>
@@ -711,6 +715,8 @@
               <ignoredUsedUndeclaredDependency>org.apache.tomcat.embed:tomcat-embed-core</ignoredUsedUndeclaredDependency>
             </ignoredUsedUndeclaredDependencies>
             <usedDependencies>
+              <usedDependency>com.giffing.wicket.spring.boot.starter:wicket-spring-boot-starter</usedDependency>
+              <usedDependency>de.tudarmstadt.ukp.inception.app:SILK_CA</usedDependency>
               <!-- INCEpTION backend modules - used via Spring -->
               <usedDependency>de.tudarmstadt.ukp.inception.app:inception-image</usedDependency>
               <usedDependency>de.tudarmstadt.ukp.inception.app:inception-layer-docmetadata</usedDependency>

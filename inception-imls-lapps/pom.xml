@@ -208,4 +208,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
+  
+    <build>
+    <pluginManagement>
+      <plugins>
+<!--         <plugin> -->
+<!--           <groupId>org.apache.maven.plugins</groupId> -->
+<!--           <artifactId>maven-dependency-plugin</artifactId> -->
+<!--           <configuration> -->
+<!--             <usedDependencies> -->
+<!--               <usedDependency>org.lappsgrid:discriminator</usedDependency> -->
+<!--             </usedDependencies> -->
+<!--           </configuration> -->
+<!--         </plugin> -->
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>

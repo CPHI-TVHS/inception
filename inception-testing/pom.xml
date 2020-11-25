@@ -118,6 +118,7 @@
                 - Maven doesn't detect that we need the WebInitializer for testing wicket pages
               -->
               <usedDependency>com.giffing.wicket.spring.boot.starter:wicket-spring-boot-starter</usedDependency>
+              <usedDependency>de.tudarmstadt.ukp.inception.app:inception-recommendation-api</usedDependency>
             </usedDependencies>
           </configuration>
         </plugin>

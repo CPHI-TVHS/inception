@@ -114,4 +114,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
+  
+  
+  
+      <build>
+    <pluginManagement>
+      <plugins>
+<!--         <plugin> -->
+<!--           <groupId>org.apache.maven.plugins</groupId> -->
+<!--           <artifactId>maven-dependency-plugin</artifactId> -->
+<!--           <configuration> -->
+<!--             <usedDependencies> -->
+<!--               <usedDependency>de.tudarmstadt.ukp.clarin.webanno:webanno-io-text</usedDependency> -->
+<!--             </usedDependencies> -->
+<!--           </configuration> -->
+<!--         </plugin> -->
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>

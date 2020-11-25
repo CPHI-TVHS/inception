@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   Copyright 2017
   Ubiquitous Knowledge Processing (UKP) Lab
-  Technische Universität Darmstadt
+  Technische Universit�t Darmstadt
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -14,8 +15,7 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
--->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+--><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dkpro</groupId>
@@ -136,6 +136,7 @@
     <module>inception-workload</module>
     <module>inception-workload-matrix</module>
     <module>inception-workload-dynamic</module>
+    <module>SILK_CA</module>
   </modules>
   <repositories>
     <!-- For RELEASEes of WebAnno / DKPro Core-->
@@ -180,6 +181,7 @@
   </pluginRepositories>
   <dependencies>
     <!-- The logging subsystem used by WebAnno -->
+    
     <dependency>
       <!-- Use Log4J v2 as logging backend -->
       <groupId>org.apache.logging.log4j</groupId>
@@ -268,6 +270,11 @@
   <dependencyManagement>
     <dependencies>
       <!-- INCEpTION -->
+      <dependency>
+        <groupId>gov.med.va.vha09.nlp</groupId>
+        <artifactId>SILK_CA</artifactId>
+        <version>0.17.1</version>
+      </dependency>
       <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
@@ -1697,7 +1704,7 @@
     <profile>
       <id>full-tests</id>
       <properties>
-        <excludedTestCategories />
+        <excludedTestCategories/>
       </properties>
     </profile>
   </profiles>
